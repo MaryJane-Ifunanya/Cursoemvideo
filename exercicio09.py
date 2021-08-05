@@ -1,0 +1,16 @@
+print('''Faça um programa que leia um número inteiro qualquer e
+mostre na tela a sua tabuada.''')
+
+num = int(input('Digite um mumero para ver sua tabuada:'))
+print('-' * 12)
+print('{} x {:2} = \033[31m{}\033[m'.format(num, 1, 1 * num))
+print('{} x {:2} = \033[31m{}\033[m'.format(num, 2, 2 * num))
+print('{} x {:2} = \033[31m{}\033[m'.format(num, 3, 3 * num))
+print('{} x {:2} = \033[31m{}\033[m'.format(num, 4, 4 * num))
+print('{} x {:2} = \033[31m{}\033[m'.format(num, 5, 5 * num))
+print('{} x {:2} = \033[31m{}\033[m'.format(num, 6, 6 * num))
+print('{} x {:2} = \033[31m{}\033[m'.format(num, 7, 7 * num))
+print('{} x {:2} = \033[31m{}\033[m'.format(num, 8, 8 * num))
+print('{} x {:2} = \033[31m{}\033[m'.format(num, 9, 9 * num))
+print('{} x {:2} = \033[31m{}\033[m'.format(num, 10, 10 * num))
+print('-' * 12)
